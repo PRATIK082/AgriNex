@@ -1,0 +1,17 @@
+stateDiagram-v2
+ [*] --> Draft
+ Draft --> Validating
+ Validating --> Rejected: invalid or unsafe
+ Validating --> AwaitingApproval: valid
+ AwaitingApproval --> Authorized: approved
+ AwaitingApproval --> Cancelled
+ Authorized --> Dispatched
+ Dispatched --> Executing
+ Executing --> Paused: fault or operator
+ Paused --> Executing: recovery authorized
+ Executing --> Completed
+ Executing --> Failed
+ Completed --> Verifying
+ Verifying --> Verified
+ Verifying --> ExceptionReview
+ Failed --> ExceptionReview

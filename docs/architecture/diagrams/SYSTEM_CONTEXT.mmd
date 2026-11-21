@@ -1,0 +1,11 @@
+flowchart TB
+ Farmer[Farmer / FPO / Agronomist] --> UI[Web / Mobile / Voice]
+ UI --> Core[AgriNex Platform]
+ Core <--> AI[Scientific Models + ML + Agents]
+ Core <--> Data[(Geospatial + Time Series + Imagery)]
+ Weather[Weather / Satellite / Market] --> Data
+ Sensors[Sensors / Irrigation] <--> Edge[Farm Edge Gateway]
+ Core <--> Edge
+ Edge <--> Machines[Tractors / UGVs / Drones]
+ Edge --> Safety[Independent Safety Controller]
+ Safety --> Machines
