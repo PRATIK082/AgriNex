@@ -1,6 +1,4 @@
 # Repository Structure
-One coherent repository with domain-owned packages. Directories may initially contain specifications only; do not create empty production services without requirements and a vertical slice.
-
 ```
 AgriNex/
 ├── README.md LICENSE NOTICE CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md GOVERNANCE.md ROADMAP.md
@@ -36,5 +34,6 @@ AgriNex/
 └── .github/
     ├── workflows/ ISSUE_TEMPLATE/ PULL_REQUEST_TEMPLATE.md CODEOWNERS
 ```
+Directories may initially contain specifications only. Do not create empty production services without requirements and a working vertical slice.
 
 Lifecycle: stakeholder needs → system requirements → architecture → detailed design → implementation → static analysis/review → unit → integration → system → simulation → HIL → controlled field validation → release/maintenance. Every requirement links to design, implementation and test evidence.
