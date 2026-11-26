@@ -9,6 +9,9 @@ AgriNex is a modular research and engineering programme for the complete agricul
 
 > **North star:** a farm that can sense, reason, plan, act and verify with minimal routine human intervention—while people retain control of safety-critical, regulated and high-impact decisions.
 
+### Current engineering status
+V0.1 is merged to `main`; API CI passed on 2026-11-25. The API remains a local demonstrator. Production identity/tenant isolation, PostGIS migrations and ROS simulation validation are pending. Start with the [next-activities and research plan](docs/engineering/MASTER_PLAN_AND_RESEARCH.md).
+
 ### Start here
 - [Complete project blueprint](docs/COMPLETE_BLUEPRINT.md)
 - [Research and competitor catalogue](docs/RESEARCH_CATALOG.md)
