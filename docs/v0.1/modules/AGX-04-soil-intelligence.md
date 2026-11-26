@@ -18,3 +18,6 @@ Own SoilProfile, SoilSample, LabResult, SoilLayer; consumes GIS/LIMS; serves AGX
 
 ## Acceptance, safety and security
 Preserve method, depth, units and provenance. No universal threshold without crop/region/method context.
+
+## V0.2 extension — comprehensive soil testing
+Support the Indian SHC panel (available N/P/K/S; Zn/Fe/Cu/Mn/B; pH/EC/OC) plus extensible chemical, physical, hydrological and biological panels. Add device/lab evidence classes, calibration, sample preparation, method, depth, uncertainty, chain of custody and paired reference-lab validation. Never claim every parameter is measured directly by a single probe. See [full capability specification](../../v0.2/SOIL_SEED_LEAF_PLANT_INTELLIGENCE.md).

@@ -18,3 +18,6 @@ Own ImageAsset, HealthDetection, CropHealthTrend; consumes AGX-01/02/10 and feed
 
 ## Acceptance, safety and security
 Local validation datasets and abstention tests. Image class alone never triggers treatment.
+
+## V0.2 extension — leaf scanner and growth phenotyping
+Add calibrated RGB/optional multispectral leaf capture, image-derived indicators with uncertainty/abstention, paired plant tissue laboratory results, persistent plant identity, growth measurements and phenology timeline. Optical signatures are indirect and must not be represented as elemental assays. See [full capability specification](../../v0.2/SOIL_SEED_LEAF_PLANT_INTELLIGENCE.md).

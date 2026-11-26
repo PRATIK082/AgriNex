@@ -288,3 +288,29 @@ A release gate is not a certification. Formal conformity assessment and regulato
 A developer starts Compose, applies migrations, authenticates, creates tenant/farm/field/zone/asset/crop-cycle, ingests a synthetic observation with provenance, runs spatial queries, views a time series, exports GeoJSON and sees writes represented in audit/event history. CI runs API, database, migration, contract and security checks.
 
 This is the first meaningful AgriNex digital-farm product—not a dashboard mock-up.
+
+## 10. New cross-module capability — Soil, Seed, Leaf & Plant Intelligence
+
+A new V0.2 research requirement has been added: an integrated diagnostic and decision-support system spanning comprehensive soil testing, seed quality, leaf/tissue analysis, plant age/growth tracking, crop-stage nutrition recommendations, reports, mobile APIs and subscription entitlements. It is cross-cutting across AGX-01, AGX-02, AGX-03, AGX-04, AGX-06, AGX-08 and AGX-12.
+
+**Read the full requirements and research:** [Soil, Seed, Leaf & Plant Intelligence](../v0.2/SOIL_SEED_LEAF_PLANT_INTELLIGENCE.md).
+
+Key design decisions:
+- Support the Indian Soil Health Card core panel: available N, P, K, S; Zn, Fe, Cu, Mn, B; pH, EC and organic carbon. Extend with method-defined chemical, physical, hydrological and biological soil-health panels (e.g. texture, CEC, Ca/Mg/Na, bulk density, infiltration, water holding, respiration and microbial biomass).
+- Develop a hybrid soil device with pH/EC/moisture/temperature sensing, validated reagent/colorimetric assays and optional spectral/ion-selective research modules. Use reference laboratories for parameters that are not reliably measurable by the field device.
+- Seed imaging is a screening tool; purity, moisture, germination, vigour, seed health and cultivar identity require their appropriate test protocols and/or competent laboratory confirmation.
+- Leaf imaging provides indirect optical indicators; tissue chemistry remains separate evidence. Use crop/tissue/stage-specific sampling and sufficiency ranges.
+- Track chronological age, DAS/DAT, GDD and phenological stage separately. Age alone must never determine nutrient dose.
+- Nutrition recommendations fuse soil, tissue, crop/cultivar/stage, water, weather, previous applications, yield target and approved product rules; expose evidence/uncertainty and require human approval.
+- Provide mobile-first offline workflows, versioned OpenAPI/JSON Schema contracts, GeoJSON/OGC/STAC/SensorThings interoperability where applicable, PDF reports and configurable subscription entitlements.
+- Do not market device estimates as laboratory results or allow an AI output to trigger fertilizer/pesticide application or physical actuation autonomously.
+
+### New activity sequence
+1. Interview growers, agronomists, labs, FPOs and device suppliers; choose first crop/region and test frequency.
+2. Implement digital sample/result/report workflows using manual laboratory results before designing custom hardware.
+3. Run paired device-vs-reference-lab validation for each soil analyte before claiming measurement capability.
+4. Prototype controlled-light seed and leaf scanners with independent ground truth.
+5. Validate a crop-specific nutrition engine on one crop/region/season.
+6. Add mobile offline sync, partner APIs and subscription billing/entitlements after user research.
+
+The detailed document includes parameter catalogues, device architecture, data contracts, reports, package hypotheses, validation criteria and references.

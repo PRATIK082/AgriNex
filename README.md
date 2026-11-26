@@ -20,6 +20,8 @@ V0.1 is merged to `main`; API CI passed on 2026-11-25. The API remains a local d
 - [Agronomy and AI plan](docs/AGRONOMY_AI.md)
 - [Market intelligence](docs/MARKET_INTELLIGENCE.md)
 - [Standards and safety](docs/STANDARDS_SAFETY.md)
+- [Soil, Seed, Leaf & Plant Intelligence](docs/v0.2/SOIL_SEED_LEAF_PLANT_INTELLIGENCE.md)
+- [Engineering master plan and research](docs/engineering/MASTER_PLAN_AND_RESEARCH.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Repository structure](docs/REPOSITORY_STRUCTURE.md)
 

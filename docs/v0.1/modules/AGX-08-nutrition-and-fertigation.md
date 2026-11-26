@@ -18,3 +18,6 @@ Own NutrientPlan, ProductProfile, ApplicationRecord; consumes soil/crop analysis
 
 ## Acceptance, safety and security
 Unit/basis conversion tests. No AI-generated formulation or dose automatically approved.
+
+## V0.2 extension — plant-stage nutrition intelligence
+Nutrition plans must integrate soil tests, tissue tests, water quality, crop/cultivar, plant age and phenological stage, GDD, weather, previous nutrient applications, yield target and approved product/label constraints. Use locally validated STCR/ICAR/state recommendations; expose evidence, assumptions and uncertainty; require human approval. See [full capability specification](../../v0.2/SOIL_SEED_LEAF_PLANT_INTELLIGENCE.md).

@@ -37,25 +37,32 @@ Capability-based and dependency-driven; dates are not guaranteed. A stage is com
 - Farm world, rover model, navigation and fault-injection scenarios.
 **Exit:** reproducible headless simulation; no physical actuation.
 
-## Stage 5 — Scientific agronomy
+## Stage 5 — Soil, Seed, Leaf & Plant Intelligence
+- Comprehensive SHC-aligned and extended soil testing workflows; device-vs-lab validation.
+- Seed lot registry, scanner screening and germination/vigour/health test records.
+- Calibrated leaf scanner, plant tissue lab workflow and growth/phenology timeline.
+- Crop-stage nutrition engine, unified reports, mobile/offline API and subscription experiments.
+**Exit:** one crop/region pilot with paired lab/device validation, reviewed nutrition recommendations and clear evidence classes.
+
+## Stage 6 — Scientific agronomy
 - Soil sampling/lab data, crop calendars and weather.
 - Select and calibrate one crop model for one crop/site/season.
 - Evidence-linked recommendations and expert review.
 **Exit:** independent validation report and declared model domain.
 
-## Stage 6 — Supervised farm systems
+## Stage 7 — Supervised farm systems
 - Soil, irrigation and nutrition workflows with verified product/label constraints.
 - Irrigation test rig with independent safety controller.
 - Drone imagery ingestion under current jurisdictional approvals.
 **Exit:** supervised pilot with measured outcomes and safety procedures.
 
-## Stage 7 — Robotics and fleet autonomy
+## Stage 8 — Robotics and fleet autonomy
 - Machine capability adapters, missions, teleoperation and safety case.
 - SIL/HIL, obstacle/fault tests, then supervised field trials.
 - ISOBUS integration where compatible and licensed standards are available.
 **Exit:** machine-specific validation and operational approval.
 
-## Stage 8 — Harvest, market and orchestration
+## Stage 9 — Harvest, market and orchestration
 - Harvest lots, quality, storage, market intelligence and resource scheduling.
 - Plan-vs-actual reconciliation and transparent economic metrics.
 **Exit:** measured operational outcomes, not simulated claims.
